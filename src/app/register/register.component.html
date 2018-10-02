@@ -1,0 +1,28 @@
+
+
+
+<h1>Register</h1>
+  <div class="col-md-6">
+  <div>
+      <label for="Username">Username</label>
+      <input [(ngModel)]="user.username" #ctrl="ngModel" >
+  </div>
+  <br>
+  <div>
+      <label for="Email">Email</label>
+      <input [(ngModel)]="user.email" #ctrl="ngModel" >
+  </div>
+  <br>
+  <div>
+      <label for="Password">Password</label>
+      <input [(ngModel)]="user.password" #ctrl="ngModel" >
+  </div>
+  <br>
+  <div>
+   
+      <button type="submit" value="submit" (click)="submit()">Submit</button>
+  </div>
+</div>
+
+ 
+
